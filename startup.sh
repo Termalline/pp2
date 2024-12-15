@@ -10,3 +10,4 @@ docker build -f Dockerfile.py -t python_dockerfile .
 docker build -f Dockerfile.rb -t ruby_dockerfile .
 docker build -f Dockerfile.rc -t r_dockerfile .
 docker build -f Dockerfile.rs -t rust_dockerfile .
+npm run dev
