@@ -1,0 +1,43 @@
+
+    .container {
+        display: 'flex';
+        justifyContent: 'center';
+        alignItems: 'center';
+        height: '100vh';
+        backgroundColor: '#f0f2f5';
+    }
+    .form {
+        backgroundColor: '#fff';
+        padding: '20px';
+        borderRadius: '8px';
+        boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)';
+        width: '300px';
+    }
+    .title {
+        marginBottom: '20px';
+        textAlign: 'center';
+    }
+    .inputGroup {
+        marginBottom: '15px';
+    }
+    .label {
+        display: 'block';
+        marginBottom: '5px';
+    }
+    .input {
+        width: '100%';
+        padding: '10px';
+        borderRadius: '4px';
+        border: '1px solid #ccc';
+    }
+    .button {
+        width: '100%';
+        padding: '10px';
+        borderRadius: '4px';
+        border: 'none';
+        backgroundColor: '#007bff';
+        color: '#fff';
+        fontSize: '16px';
+        cursor: 'pointer';
+    }
+

@@ -1,0 +1,24 @@
+services:
+  c:
+    build:
+      context: ./c
+    command: ./code
+
+  python:
+    build:
+      context: ./python
+    command: python 
+
+
+  rust:
+    build:
+      context: ./rust
+    command: ./main
+
+
+  java:
+    build:
+      context: ./java
+    command: java Main
+
+

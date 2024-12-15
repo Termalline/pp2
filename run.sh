@@ -1,0 +1,1 @@
+docker run -v /$(pwd)/execution:/app/ cpp_dockerfile
