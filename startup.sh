@@ -1,4 +1,4 @@
-npm install
+npm install --legacy-peer-deps
 docker build -f Dockerfile.c -t c_dockerfile . 
 docker build -f Dockerfile.cpp -t cpp_dockerfile .
 docker build -f Dockerfile.go -t go_dockerfile .
